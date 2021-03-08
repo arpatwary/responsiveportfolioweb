@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.first_section{
+    background-image: url(images/islamic\ man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 20px;
+    background-attachment: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: right;
+    margin-top: 20px;
+    
+}
+.logo h1{
+    color:rgb(235, 155, 8);
+}
+.menu{
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    
+}
+.menu ul{
+    
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+text-decoration: none;
+padding: 10px 10px;
+font-size: 20px;
+color: rgb(235, 155, 8);
+}
+.menu ul li a:hover{
+color:white;
+}
+.content{
+    background: rgba(0, 0, 0, 0.295);
+    width: 30%;
+    clear:both;
+    margin-top: 150px;
+    text-align: center;
+    padding: 60px 30px;
+    margin-left: 247px;
+    color:whitesmoke;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgb(123, 248, 140);
+    line-height: 40px;
+
+}
+.button{
+    display:flex;
+   
+    margin-top: 40px;
+    margin: 0 auto;
+    margin-left:10px;
+           
+}
+
+
+.button a{
+    margin-left: 50px;
+    background: rgb(6, 5, 19);
+    text-decoration: none;
+    padding: 0px 5px;
+    margin-top: 20px;
+    border:2px solid rgb(194, 191, 20);
+    border-radius: 10px;
+    color: darkgray;
+}
+
+.about:hover{
+    animation:arp 2s;
+}
+
+    
+.second_section{
+    width: 60%;
+    /* border:1px solid rgb(199, 120, 24); */
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(123, 248, 140);
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.651);
+}
+.second_section h2{
+    border:1px dotted burlywood;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.second_section p{
+    font-size: 18px;  
+    line-height: 40px;
+    text-align: justify;
+    color: whitesmoke;
+}
+.services{
+    
+    height: 380px;
+}
+.services h2{
+    text-align: center;
+    margin-bottom: 95px;
+    border: 1px dotted crimson;
+    padding: 5px;
+    font-size: 35px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: #a50590;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 30px;
+    margin-top: 80px;
+
+    
+}
+.box1{
+    background: rgba(7, 13, 15, 0.541);
+    width: 28%;
+    padding: 18px;
+    box-shadow: 0 0 20px rgb(123, 248, 140);
+    border-radius: 15px;
+}
+.box1 h3{
+    text-align: center;
+    margin-bottom: 15px;
+    color: wheat;
+}
+.box1 p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+.contact_section{
+    background: rgba(0, 0, 0, 0.589);
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgb(123, 248, 140) ;
+}
+.contact_section h2{
+    color:blanchedalmond;
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+.contact{
+    display:flex;
+    justify-content: space-around;
+}
+.contact_box1{
+    background: rgba(14, 11, 11, 0.514);
+    padding: 25px;
+    box-shadow: 0 0 10px wheat;
+    border-radius: 10px;
+    height: 90px;
+    margin-top: 170px;
+    font-size: 15px;
+    line-height: 30px;
+    width: 25%;
+    color: wheat;
+}
+.contact_box2{
+    background: rgba(14, 11, 11, 0.514);
+    padding: 25px;
+    box-shadow: 0 0 10px wheat;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.contact_box2 input{
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid rgb(253, 229, 213);
+    border-radius: 15px;
+    font-size: 18px;
+    background: black;
+    color: wheat;
+   
+}
+.submit2:hover{
+animation: aaa 3s;
+}
+.contact_box2 textarea{
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid rgb(253, 229, 213);
+    border-radius: 15px;
+    font-size: 20px;   
+    background: black;
+    color: wheat; 
+}
+
+.copyright{
+    background: black;
+}
+.copyright h3{
+    color:wheat;
+    text-align: center;
+}
+@keyframes arp{
+    0%{
+        background: linear-gradient(magenta, rgb(6, 5, 19));
+        
+    }
+    100%{
+        background: linear-gradient(yellow, blue);
+        color:white;
+        transform: rotate(360deg);
+    }
+}
+@keyframes aaa{
+    0%{
+        background: linear-gradient(rgb(187, 8, 187), rgb(52, 147, 211));
+        
+    }
+    100%{
+        background: linear-gradient(rgb(0, 140, 255), rgb(216, 73, 7));
+        color:white;
+        transform: rotate(360deg);
+    }  
+}
+.material-icons{
+    font-size: 100px;
+    margin-left: 130px;
+    margin-top: -70px;
+    color: rgba(206, 160, 8, 0.712);
+}
